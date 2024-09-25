@@ -1,0 +1,28 @@
+footer {
+    background-color: lightblue;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /* Đặt chiều hiển thị dọc */
+    align-items: flex-end; /* Căn phần tử con về bên phải */
+
+}
+.item {
+    /*flex: 0 0 calc(33.33% - 20px);*/
+    margin: 10px;
+    text-align: center;
+    font-size: 24px; /* Đặt kích thước font chữ */
+}
+.item img {
+    width: 100px; /* Đặt chiều rộng thay đổi theo */
+    height: auto; /* Đặt chiều cao cố định */
+    margin-right: 30px; /* Đặt khoảng cách 30 pixel giữa các ảnh */
+}
+.main {
+    min-height: 100vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: /*center*/flex-end; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
